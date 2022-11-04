@@ -1,0 +1,52 @@
+h1.title{
+    font-size: 50px;
+    padding-top: 4.4em;
+    text-align: center;
+}
+
+div.form{
+    font-size: 20px;
+    padding-top: 1em;
+    text-align: center;
+}
+
+div.response{
+    width: 60em;
+}
+
+p.result{
+    width: 10em;
+}
+
+div.clear{
+    display:flex;
+    width:100%;
+}
+
+div.continue{
+    display: none;
+    text-align: center;
+    padding-top: 1em;
+}
+
+div.img_res{
+    display: none;
+    padding-top: 10em;
+    padding-right: 8em;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+img.img_res{
+    width: 10em;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}

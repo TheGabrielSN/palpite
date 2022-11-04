@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title> Descubra o Número </title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="game.css">
+    </head>
+
+    <body>
+        <h1 class="title"> Adivinhe o Número </h1>
+        <div class="form">
+            <label for="palpite" class="TextPalpite"> Digite o seu palpite: </label>
+            <input type="text" id="palpite" class="InputPalpite"/>
+            <input type="submit" value="Enviar Palpite" class="SubmitePalpite" onclick="conferir_palpite()"/>
+        </div>
+
+        <div class="continue">
+            <input type="submit" value="Novo Jogo" class="SubmiteContinue" onclick="new_game()"/>
+        </div>
+
+        <div class="img_res">
+            <img class="img_res" src="" />
+        </div>
+
+        <div class="response">
+            <p class="result"></p>
+            <p class="palpites_dados"></p>
+            <p class="num_palpites"></p>
+            <p class="AltoBaixo"></p>
+        </div>
+    </body>
+    <script type="text/javascript" src="game.js"> </script>
+</html>
+
