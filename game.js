@@ -3,7 +3,7 @@ regras = `
 Encontre o número entre 0 e 100!
 
 Você possuí 5 tentativas, cada tentativa retorna uma dica (palpite acima ou abaixo).
-Se desafie a si mesmo e busque conquistar bons resultados.
+Desafie a si mesmo e busque conquistar bons resultados.
 
 Boa sorte! e que SE INICIEM OS JOGOS!!!!
 `
